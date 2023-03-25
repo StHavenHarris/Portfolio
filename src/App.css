@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #1e4aa3;
+}
+
+
+
+img{
+  max-height: fit-content;
+  max-width: 100%;
+}
+
