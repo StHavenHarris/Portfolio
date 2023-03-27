@@ -1,5 +1,5 @@
 // src/components/About.js
-import img1 from "C:/Users/Owner/Desktop/react-portfolio/src/images/Stephen-Haven Harris (2).jpg"
+import img1 from "C:/Users/Owner/Desktop/New folder/Portfolio/src/images/Stephen-Haven Harris (2).jpg"
 
 export default function About() {
     return (

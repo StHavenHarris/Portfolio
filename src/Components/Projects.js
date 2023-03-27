@@ -1,8 +1,8 @@
 import { CodeBracketIcon, } from "@heroicons/react/24/solid";
 import React from "react";
-import { project, project2 } from "C:/Users/Owner/Desktop/react-portfolio/src/data.js";
-import img2 from "C:/Users/Owner/Desktop/react-portfolio/src/images/Vending Application.png"
-import img3 from "C:/Users/Owner/Desktop/react-portfolio/src/images/TEnmo Application.png"
+import { project, project2 } from "C:/Users/Owner/Desktop/New folder/Portfolio/src/data.js";
+import img2 from "C:/Users/Owner/Desktop/New folder/Portfolio/src/images/Vending Application.png"
+import img3 from "C:/Users/Owner/Desktop/New folder/Portfolio/src/images/TEnmo Application.png"
 export default function Projects() {
 
   return (
