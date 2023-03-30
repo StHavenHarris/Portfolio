@@ -1,5 +1,5 @@
 // src/components/About.js
-import img1 from "../ProfilePic.jpg"
+import img1 from "C:/Users/Owner/Desktop/Port/Portfolio/src/Images/ProfilePic.jpg"
 
 export default function About() {
     return (
