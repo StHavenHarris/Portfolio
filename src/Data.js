@@ -2,21 +2,29 @@ export const project = [
     {
         title: "Vending Machine Application",
         description: "An application where the user can select a variety of snacks.",
-        image: "src/images/TEnmo Application.png",
-        link: "https://merit-america.git.techelevator.com/Nerdtron177/capstone-1",
+        image: "public/Images/VendingApplication.png",
+        link: "https://github.com/StHavenHarris/Tech-Elevator-Capstones/tree/main/Capstone%201.5/capstone-1",
     },
-
-
-];
-
-export const project2 =[
-    {
+    
+      {
         title:"TEnmo Banking Application",
         description: "An application where an user can register and transfer money to other users",
-        image:"src/images/Vending Application.png",
-        link:"https://merit-america.git.techelevator.com/HassanAli/module-2-capstone"
- }
+        image:"public/Images/TEnmoApplication.png",
+        link:"https://github.com/StHavenHarris/Tech-Elevator-Capstones/tree/main/Capstone2.2/module-2-capstone"
+ },
+ {
+  title: "Food Planner Application",
+  description:"An application where a user can look up and select different meal plans for the month",
+  image:"Portfolio/public/Images/Screenshot.png",
+  link:"https://github.com/StHavenHarris/Tech-Elevator-Capstones/tree/main/frontend",
+
+ },
+    
+
+
 ];
+
+
 
 export const testimonials = [
     {

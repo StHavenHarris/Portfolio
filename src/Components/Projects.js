@@ -1,8 +1,8 @@
 import { CodeBracketIcon, } from "@heroicons/react/24/solid";
 import React from "react";
-import { project, project2 } from "../Data.js";
+import { project } from "../Data.js";
 import img2 from "../Images/VendingApplication.png"
-import img3 from "../Images/TEnmoApplication.png"
+
 export default function Projects() {
 
   return (
@@ -44,34 +44,7 @@ export default function Projects() {
             
           ))}       
           
-          <div className="flex flex-wrap -m-4">
-          {project2.map((project2) => (
-            <b
-              href={project2.link}
-              key={project2.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div2 className="flex relative">
-                <img
-                 src={img3}
-                  alt= {project2.title}
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                 
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h3 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project2.subtitle}
-                  </h3>
-                  <h4 className="title-font text-lg font-medium text-green-500 mb-3">
-                    {project2.title}
-                  </h4>
-                  <p className="leading-relaxed">{project2.description}</p>
-                </div>
-              </div2>
-            </b>
-          ))}
-          
-        </div>
-
+      
 
         
       </div>
